@@ -1,0 +1,68 @@
+
+html {
+    box-sizing: border-box;
+    margin:0px;
+}
+
+.header-container {
+    background-color:#1F2937;
+    color:white;
+}
+
+.header {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px 70px 20px 100px;
+}
+
+
+.link-1 {
+  margin-left:auto;
+  font-size:18px;
+}
+
+.link {
+    font-size:18px;
+}
+
+.logo {
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.mixed-container {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex:1 1 0;
+    gap:70px;
+    padding:40px 10px 80px 100px;
+}
+
+.text-container {
+    display:flex;
+    flex:1 1 0;
+    flex-direction:column;
+}
+
+h1 {
+    font-size:48px;
+    font-weight:bold;
+}
+
+.head-button {
+    width:80px;
+    background-color:#3882f6;
+    color:white;
+    padding:6px;
+    margin-top:10px;
+}
+
+
+.france {
+    display:flex;
+    height:200px;
+    width:auto;
+    flex:1 1 0;
+}
