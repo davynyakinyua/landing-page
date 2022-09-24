@@ -71,7 +71,7 @@ h1 {
     height:200px;
     width:auto;
     flex:1 1 0;
-    padding:40px 0px 0px 20px;
+    padding:40px 50px 0px 20px;
 }
 
 
@@ -88,7 +88,7 @@ h1 {
     flex:1 1 0;
     align-items:flex-start;
     width:700px;
-    height:260px;
+    height:190px;
     justify-content:center;
     margin:0px auto;
 }
@@ -121,9 +121,69 @@ img {
     background-color:#E5E7EB;
     display:flex;
     flex-direction:column;
-
+    height:180px;
+    justify-content: center;
+    align-items: center;
+    gap:13px;
 }
 
 .text-area {
-    
+    text-align:flex-start;
+    width:400px;
+    font-style: italic;
+}
+
+.name {
+    font-weight:bold;
+    margin-left:300px;
+}
+
+.box-container {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:50px;
+}
+
+.fourth-container {
+    display:flex;
+    height:120px;
+    justify-content:space-evenly;
+    align-items: center;
+    color:white;
+    background-color:blue;
+    width:600px;
+    gap:40px;
+    border-radius:5px;
+
+}
+
+.small-container {
+    gap:10px;
+    display:flex;
+    flex-direction:column;
+}
+
+.one-head {
+    font-weight:bolder;
+}
+
+.one-button {
+    background-color:blue;
+    border:1px solid white;
+    color:white;
+    border-radius:5px;
+    font-weight:bolder;
+    padding:3px;
+    width:90px;
+}
+
+.footer {
+    display:flex;
+    background-color:#1F2937;
+    height:60px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:12px;
 }
