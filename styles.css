@@ -67,9 +67,63 @@ h1 {
 
 
 .france {
-    display:flex;
+    display:block;
     height:200px;
     width:auto;
     flex:1 1 0;
     padding:40px 0px 0px 20px;
+}
+
+
+.title {
+    font-size:36px;
+    text-align:center;
+    padding:30px 20px 20px 20px;
+    font-weight:bolder;
+    color:#1F2937;
+}
+
+.middle-image-container {
+    display:flex;
+    flex:1 1 0;
+    align-items:flex-start;
+    width:700px;
+    height:260px;
+    justify-content:center;
+    margin:0px auto;
+}
+
+
+.middle-container {
+    display:flex;
+   justify-content:center;
+    flex-direction:column;
+    flex:1 1 0;
+    align-items:center;  
+    gap:5px;
+    width:110px;
+}
+
+img {
+    display:block;
+    height:110px;
+    width:auto;
+}
+
+.middle-text {
+    font-size:13px;
+    width:150px;
+    text-align: center;
+}
+
+.third-container {
+    margin:0;
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.text-area {
+    
 }
