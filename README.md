@@ -3,7 +3,7 @@ This is a CSS flex-box project
 The skills required to complete this project include:-
 HTML5, CSS3 flex-box, GIT, CLI.
 
-#visit site
+# visit site
 https://davynyakinyua.github.io/landing-page/index.html
 
 # IMAGE ATTRIBUTION
